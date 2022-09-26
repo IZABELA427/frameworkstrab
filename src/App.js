@@ -3,7 +3,7 @@ import { Component } from 'react';
 import {Buscar} from './components/Buscar'
 import {Cabecalho} from './components/Cabecalho'
 import { Listar } from './components/Listar';
-// import { Rodape } from './Components/Rodape';
+import { Rodape } from './components/Rodape';
 
 
 class App extends Component{
@@ -43,7 +43,7 @@ class App extends Component{
       <Listar
       odas = {odas}
       />
-      {/* <Rodape/> */}
+      <Rodape/>
       </section>
     )
   }

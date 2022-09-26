@@ -1,7 +1,9 @@
+import './styles.css'
+
 export const Rodape = () =>{
 return (
-    <dv>
-        
-    </dv>
+    <div className='rodape'>
+        Desenvolvido por Izabela Santana e Caio Pereira
+    </div>
 )
 }
