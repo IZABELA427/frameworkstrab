@@ -1,0 +1,52 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: rgb(211, 135, 109);
+}
+
+.lista p{
+      margin-left: 10px
+
+
+}
+
+
+.lista {
+    /* max-width: 1200px; */
+    /* padding-left: 10px; */
+    /* min-height: 100vh; */
+    background-color: rgb(243, 111, 66);
+    padding:30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 3fr));
+    gap: 20px;
+  }
+
+  .itemLista{
+    background-color: rgba(211, 134, 109, 0.856);
+    box-shadow: 20 15 10px rgb(55, 163, 118, 0.2); 
+    transition: transform 100ms ease-in-out;
+  }
+
+  .itemLista:hover{
+    transform: scale(1.05);
+  }
+  
+  .flex{
+    display: flex;
+  }
+  .busca {
+    display: flex;
+    align-items: center;
+    background-color: rgb(220,220,220);
+    box-shadow: 0 0 10px rgba(55, 163, 118, 0.2);
+    transition: transform 100ms ease-in-out;
+    transform: scale(1.05);
+    padding: 60px;
+
+  }
+  .qtd_objetos{
+    margin-left: 40px   ;
+  }
+  
+ 
